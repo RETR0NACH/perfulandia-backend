@@ -16,7 +16,7 @@ public class UsuarioController {
         this.service = service;
     }
 
-    //CRUD
+    //CRUD.
 
     //listar
     @GetMapping
