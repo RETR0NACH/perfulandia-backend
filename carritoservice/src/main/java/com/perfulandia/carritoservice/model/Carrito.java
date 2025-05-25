@@ -1,6 +1,6 @@
 package com.perfulandia.carritoservice.model;
 import jakarta.persistence.*;
-//
+/
 @Entity
 public class Carrito {
     @Id
