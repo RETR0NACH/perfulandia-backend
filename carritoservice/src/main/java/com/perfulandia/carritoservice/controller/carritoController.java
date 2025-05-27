@@ -24,7 +24,7 @@ public class carritoController {
         carritoService.eliminarProducto(id);
     }
 
-    @GetMapping
+    @GetMapping("/verCarrito/")
     public List<Carrito> verCarrito() {
         return carritoService.obtenerCarrito();
     }
